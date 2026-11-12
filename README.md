@@ -5,7 +5,7 @@ My personal portfolio site: about me, skills, experience, projects and certifica
 Built with plain **HTML, CSS and JavaScript** (no frameworks). It works on phones,
 has a dark mode, and is hosted free on **GitHub Pages**.
 
-**Live site:** `https://YOUR-GITHUB-USERNAME.github.io/portfolio-website/`
+**Live site:** https://bongokuhle-nokubonga.github.io/portfolio-website/
 
 ## Features
 

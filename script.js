@@ -1,5 +1,5 @@
-// ===== Change this to your GitHub username once your account is set up =====
-const GITHUB_USERNAME = "YOUR-GITHUB-USERNAME";
+// Your GitHub username (used for the project and profile links)
+const GITHUB_USERNAME = "Bongokuhle-Nokubonga";
 
 // Point project and profile links at your GitHub account.
 document.querySelectorAll(".gh-link").forEach((a) => {
