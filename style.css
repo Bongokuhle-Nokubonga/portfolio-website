@@ -105,6 +105,8 @@ h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); line-height: 1.15; margin: 0; letter
 
 .project { display: flex; flex-direction: column; }
 .project .lang { color: var(--accent); font-size: .78rem; margin: 0 0 6px; }
+.project-links { margin-top: auto; display: flex; gap: 18px; flex-wrap: wrap; }
+.project-links .gh-link { margin-top: 0; }
 .gh-link { margin-top: auto; font-weight: 600; text-decoration: none; font-size: .93rem; }
 
 .timeline { list-style: none; padding: 0; margin: 0; border-left: 2px solid var(--border); }

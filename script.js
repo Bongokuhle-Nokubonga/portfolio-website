@@ -2,7 +2,7 @@
 const GITHUB_USERNAME = "Bongokuhle-Nokubonga";
 
 // Point project and profile links at your GitHub account.
-document.querySelectorAll(".gh-link").forEach((a) => {
+document.querySelectorAll(".gh-link[data-repo]").forEach((a) => {
   a.href = `https://github.com/${GITHUB_USERNAME}/${a.dataset.repo}`;
   a.target = "_blank";
   a.rel = "noopener";
