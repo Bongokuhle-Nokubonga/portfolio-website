@@ -54,6 +54,12 @@ a { color: var(--accent); }
 
 /* Hero */
 .hero { padding: 96px 0 72px; }
+.hero-grid { display: grid; grid-template-columns: 1fr 300px; gap: 48px; align-items: center; }
+.profile-photo {
+  width: 100%; height: auto; aspect-ratio: 1; object-fit: cover;
+  border-radius: 50%; border: 4px solid var(--surface);
+  box-shadow: 0 0 0 3px var(--accent), var(--shadow);
+}
 .kicker { color: var(--accent); font-size: .9rem; margin: 0 0 12px; }
 h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); line-height: 1.15; margin: 0; letter-spacing: -.02em; }
 .hero h2 { font-size: clamp(1.15rem, 3vw, 1.5rem); color: var(--muted); font-weight: 500; margin: 10px 0 18px; }
@@ -133,6 +139,8 @@ h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); line-height: 1.15; margin: 0; letter
   }
   .links.open { display: flex; }
   .hero { padding: 56px 0 48px; }
+  .hero-grid { grid-template-columns: 1fr; gap: 28px; }
+  .profile-photo { width: 180px; order: -1; }
   .about-grid { grid-template-columns: 1fr; gap: 0; }
   .stats { gap: 24px; }
 }
