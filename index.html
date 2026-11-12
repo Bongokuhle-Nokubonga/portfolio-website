@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nokubonga Nkuna | IT Technician</title>
+  <meta name="description" content="Nokubonga Nkuna, CompTIA Network+ certified IT Technician in Gauteng, South Africa. Networking, desktop support, Active Directory and Microsoft 365.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">nn<span>.</span></a>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certs">Certifications</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-btn" aria-label="Toggle dark mode">&#9680;</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <p class="mono kicker">&gt; ping nokubonga --status</p>
+      <h1>Hi, I'm <span class="accent">Nokubonga Nkuna</span>.</h1>
+      <h2>IT Technician &amp; Network Support</h2>
+      <p class="lead">
+        CompTIA Network+ certified, with a Diploma in IT (Networking &amp; Cybersecurity).
+        I keep labs, networks and users running: hardware repair, imaging, LAN/WAN
+        troubleshooting, Active Directory and Microsoft 365.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+      <ul class="stats">
+        <li><strong data-count="2000">0</strong><span>workstations supported</span></li>
+        <li><strong data-count="30">0</strong><span>computer labs</span></li>
+        <li><strong data-count="3000">0</strong><span>students mentored</span></li>
+      </ul>
+    </section>
+
+    <section id="about" class="container section">
+      <h3 class="section-title">About me</h3>
+      <div class="about-grid">
+        <p>
+          I'm a hands-on IT technician based in Gauteng. During my internship at Tshwane
+          University of Technology I installed, configured and repaired desktops, laptops,
+          printers and projectors across more than 30 labs, deployed OS images and updates,
+          and traced network faults from the fibre link down to the switch port.
+          I was awarded <strong>Top User Service IT Intern 2025/2026</strong>.
+        </p>
+        <p>
+          Before that I worked as a Mainframe Intern, writing and debugging COBOL and JCL on
+          IBM z/OS, and spent three years as an ICT Academic Mentor helping students with
+          networking, cybersecurity and programming. I like problems that need patience
+          and a clear method, and I write things down so the next person can fix them faster.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="container section">
+      <h3 class="section-title">Skills</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Networking</h4>
+          <ul class="tags"><li>TCP/IP</li><li>DNS</li><li>DHCP</li><li>VPN</li><li>Routing &amp; Switching</li><li>Fibre &amp; Wireless</li><li>LAN Cabling</li><li>Cisco Packet Tracer</li></ul>
+        </article>
+        <article class="card">
+          <h4>Systems &amp; Support</h4>
+          <ul class="tags"><li>Windows OS</li><li>Active Directory</li><li>Microsoft 365</li><li>Imaging &amp; Deployment</li><li>Endpoint Management</li><li>Linux basics</li></ul>
+        </article>
+        <article class="card">
+          <h4>Hardware</h4>
+          <ul class="tags"><li>Desktop &amp; Laptop Repair</li><li>Diagnostics</li><li>Printers</li><li>Projectors</li><li>Preventative Maintenance</li><li>Lab Setup</li></ul>
+        </article>
+        <article class="card">
+          <h4>Programming</h4>
+          <ul class="tags"><li>Java</li><li>COBOL</li><li>JCL</li><li>HTML/CSS/JS</li><li>IBM z/OS</li><li>Git &amp; GitHub</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="container section">
+      <h3 class="section-title">Experience</h3>
+      <ol class="timeline">
+        <li>
+          <span class="when mono">Jul 2025 – Jul 2026</span>
+          <h4>IT Technician Intern · Tshwane University of Technology</h4>
+          <p>Supported 30+ labs and 2,000+ workstations: hardware repair, OS imaging, software deployment, and fibre, wireless, DNS and DHCP troubleshooting. Kept the inventory and maintenance records.</p>
+        </li>
+        <li>
+          <span class="when mono">Jan 2025 – Jun 2025</span>
+          <h4>Mainframe Intern · New Island Technologies</h4>
+          <p>Developed and debugged COBOL applications on IBM z/OS and z/VM, ran JCL batch jobs, and built a Credit Score Evaluation System.</p>
+        </li>
+        <li>
+          <span class="when mono">Jan 2022 – Dec 2024</span>
+          <h4>ICT Academic Mentor (Part-time) · Tshwane University of Technology</h4>
+          <p>Mentored 3,000+ ICT students in networking, cybersecurity, programming and IT fundamentals, and built practical lab exercises.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="projects" class="container section">
+      <h3 class="section-title">Projects</h3>
+      <div class="cards">
+        <article class="card project">
+          <p class="mono lang">Java</p>
+          <h4>Help Desk Ticket System</h4>
+          <p>Command-line ticketing system with priorities, SLA deadlines, technician assignment, an overdue list, reports and file storage. It has automated tests that run on GitHub Actions.</p>
+          <a class="gh-link" data-repo="helpdesk-ticket-system" href="#">View on GitHub &rarr;</a>
+        </article>
+        <article class="card project">
+          <p class="mono lang">Jekyll · Markdown</p>
+          <h4>Tech Notes Blog</h4>
+          <p>My blog about real IT support work: network troubleshooting, lab imaging, and studying for certifications.</p>
+          <a class="gh-link" data-repo="tech-blog" href="#">View on GitHub &rarr;</a>
+        </article>
+        <article class="card project">
+          <p class="mono lang">COBOL · JCL</p>
+          <h4>Credit Score Evaluation System</h4>
+          <p>Enterprise-style batch application built on IBM z/OS during my mainframe internship. It evaluates customer credit scores using COBOL programs and JCL jobs.</p>
+        </article>
+        <article class="card project">
+          <p class="mono lang">HTML · CSS · JS</p>
+          <h4>This Portfolio</h4>
+          <p>Responsive, accessible portfolio site with a dark mode, hosted for free on GitHub Pages.</p>
+          <a class="gh-link" data-repo="portfolio-website" href="#">View on GitHub &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="certs" class="container section">
+      <h3 class="section-title">Education &amp; certifications</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Education</h4>
+          <ul class="plain">
+            <li><strong>Diploma in IT (Networking &amp; Cybersecurity)</strong><br>Tshwane University of Technology · 2026</li>
+            <li><strong>National Senior Certificate</strong><br>Beacon College · 2020</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h4>Certifications</h4>
+          <ul class="plain">
+            <li><strong>CompTIA Network+ (N10-009)</strong> · 2025</li>
+            <li>Cisco: Endpoint Security · 2026</li>
+            <li>Cisco: Junior Cybersecurity Analyst Career Path · 2025</li>
+            <li>Cisco: Network Technician Career Path · 2025</li>
+            <li>Cisco: Cyber Threat Management · 2025</li>
+            <li>Cisco: Networking Basics, Addressing &amp; Troubleshooting · 2025</li>
+            <li>Cisco: Linux Unhatched · 2025</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container section contact">
+      <h3 class="section-title">Contact</h3>
+      <p>I'm open to IT Technician, Help Desk and Network Support roles in Gauteng.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:nkunanokubonga23@gmail.com">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn gh-profile" href="#" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>&copy; <span id="year"></span> Nokubonga Nkuna</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
